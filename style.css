@@ -1,0 +1,34 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+  img{
+    height: 50vh;
+    width: 50vw;
+    border-radius: 50%;
+    object-fit: cover;
+  /* background-image: url('1.jpg');  */
+  margin: 6px;
+}
+.icon{
+  padding: 6px;
+  display: flex;
+  gap: 7px;
+  align-content: center;
+  justify-content: center;
+   
+}
+ 
